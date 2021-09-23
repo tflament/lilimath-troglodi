@@ -1,0 +1,15 @@
+.centered {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.container {
+    display: inline-block;
+    padding: 10px;
+    background-color: #e9a74b;
+    border: 1px solid #94270a;
+    text-align: center;
+}
+
+.small {
+    max-width: 30px;
+}

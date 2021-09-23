@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lilimath Troglodi</title>
+
+        <link rel="stylesheet" href="./assets/style.css">
+    </head>
+    <body>
+        <div class="centered">
+            <p><b>But de ce jeu logique : </b> déplacer les caisses <img id="boite" class="small" src="/assets/images/48/boite.png"> sur les cibles <img id="cible" class="small" src="/assets/images/48/cible.png"></p>
+            <p>Cliquez une fois dans la zone de jeu puis déplacez <img class="small" src="/assets/images/48/trouglou/1.png" /> en utilisant les flèches du clavier</p>
+            <div class="container">
+                <canvas id="troglodi" width="1" height="1"></canvas><br />
+                <button onclick="restartLevel();">Recommencer (barre Espace)</button>
+                <img id="eau" src="/assets/images/48/eau.png" style="display: none;">
+                <img id="mur" src="/assets/images/48/mur.png" style="display: none;">
+                <img id="boite" src="/assets/images/48/boite.png" style="display: none;">
+                <img id="boite_place" src="/assets/images/48/boite_place.png" style="display: none;">
+                <img id="trouglou" src="/assets/images/trouglou.gif" style="display: none;" >
+                <img id="cible" src="/assets/images/48/cible.png" style="display: none;">
+                
+                <img id="trouglou_1" src="/assets/images/48/trouglou/1.png" style="display: none;">
+                <img id="trouglou_2" src="/assets/images/48/trouglou/2.png" style="display: none;">
+                <img id="trouglou_3" src="/assets/images/48/trouglou/3.png" style="display: none;">
+                <img id="trouglou_4" src="/assets/images/48/trouglou/4.png" style="display: none;">
+            </div>
+        </div>
+    </body>
+    <script src="/assets/js/game.js"></script>
+</html>

@@ -1,0 +1,9 @@
+{'M pour mur OK
+{'E pour eau OK
+{'C pour caisse OK
+{'T pour Trougloss OK
+{'R pour Trougloss en place ???
+{'P pour place OK
+{'K pour caisse en place OK
+{'(espace) pour chemin libre PASPRIS (blanc)
+{#1
