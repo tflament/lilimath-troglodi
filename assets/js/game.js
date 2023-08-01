@@ -281,6 +281,7 @@ var CUBE_SIZE = 48;
 
 var url = new URL(window.location.href);
 var cheat = url.searchParams.get("cheat");
+var levelIndicator = document.getElementById("level")
 
 var canvas = document.getElementById('troglodi');
 var ctx = canvas.getContext('2d');
@@ -361,6 +362,9 @@ function drawBaseMap() {
     canvas.width = map.width * CUBE_SIZE;
     canvas.height = map.height * CUBE_SIZE;
     /* End Canvas size */
+
+    /* Set levelIndicator */
+    levelIndicator.innerHTML = level.toString();
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
